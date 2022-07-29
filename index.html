@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/cb9a2a6c5a.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T3.com</title>
+  </head>
+  <body>
+    <!--Header-->
+    <header id="header">
+      <div class="logo-container">
+        <img
+          id="header-img"
+          alt="logo"
+          src="https://images.unsplash.com/photo-1639603683079-7398c604497a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+        />
+      </div>
+      <!--Navbar-->
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#how_it_works">How It Works</a></li>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#sign_up">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--Video-->
+
+      <section class="how_it_works" id="how_it_works">
+        <iframe
+          src="https://www.youtube.com/embed/9hBC5TVdYT8"
+          id="video"
+          frameborder="0"
+          autoplay
+        ></iframe>
+      </section>
+      <!--Features-->
+
+      <section class="features" id="features">
+        <h1>The Worlds Fastest Growing <br />Crypto App</h1>
+        <div class="container">
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-handshake-simple"></i></div>
+            <div class="description">
+              <h2>Buy crypto at true cost</h2>
+              <p>
+                Buy and sell 250+ cryptocurrencies with 20+ fiat currencies
+                using bank transfers or your credit/debit card.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-credit-card"></i></div>
+            <div class="description">
+              <h2>The only card you need</h2>
+              <p>
+                Enjoy up to 5% back on all spending with your sleek, pure metal
+                card. No annual fees. Top-up with fiat or crypto.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa-solid fa-coins"></i></div>
+            <div class="description">
+              <h2>Deposit crypto, earn rewards</h2>
+              <p>Choose from 40+ cryptocurrencies and stablecoins.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Sign Up-->
+
+      <section class="sign_up" id="sign_up">
+        <h2>Trade anytime, anywhere.</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" name="email" value="Sign Up" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
